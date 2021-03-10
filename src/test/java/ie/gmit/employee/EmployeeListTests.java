@@ -41,7 +41,7 @@ public class EmployeeListTests {
                                                                                                         "123456",
                                                                                                         1234567,
                                                                                                         22)));
-        assertEquals("Duplicate ie.gmit.employee.Employee details found, no object added", ex.getMessage());
+        assertEquals("Duplicate Employee details found, no object added", ex.getMessage());
 
 
     }

@@ -61,7 +61,7 @@ public class Employee {
         if (type.equals("Part-time") || type.equals("Full-time")) {
             this.type = type;
         } else {
-            throw new IllegalArgumentException("ie.gmit.employee.Employee type must be Part-time or Full-time");
+            throw new IllegalArgumentException("Employee type must be Part-time or Full-time");
         }
     }
 
@@ -69,7 +69,7 @@ public class Employee {
         if (age > 18) {
             this.age = age;
         } else {
-            throw new IllegalArgumentException("ie.gmit.employee.Employee too young to work, must be over 18");
+            throw new IllegalArgumentException("Employee too young to work, must be over 18");
         }
     }
 

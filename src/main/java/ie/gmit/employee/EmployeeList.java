@@ -26,7 +26,7 @@ public class EmployeeList {
 
         if(isPpsidSame)
         {
-            throw new IllegalArgumentException("Duplicate ie.gmit.employee.Employee details found, no object added");
+            throw new IllegalArgumentException("Duplicate Employee details found, no object added");
         }
         else
         {

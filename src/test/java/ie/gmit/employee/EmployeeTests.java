@@ -116,7 +116,7 @@ public class EmployeeTests {
                                                                                         "123456",
                                                                                         1234567,
                                                                                         22));
-        assertEquals("ie.gmit.employee.Employee type must be Part-time or Full-time", ex.getMessage());
+        assertEquals("Employee type must be Part-time or Full-time", ex.getMessage());
     }
 
     @DisplayName("Test age is valid")
@@ -129,6 +129,6 @@ public class EmployeeTests {
                                                                                         "123456",
                                                                                         1234567,
                                                                                         16));
-        assertEquals("ie.gmit.employee.Employee too young to work, must be over 18", ex.getMessage());
+        assertEquals("Employee too young to work, must be over 18", ex.getMessage());
     }
 }
